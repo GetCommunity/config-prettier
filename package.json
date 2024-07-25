@@ -1,0 +1,24 @@
+{
+  "name": "@getcommunity/config-prettier",
+  "description": "",
+  "version": "0.0.0",
+  "author": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "./prettier-config.json",
+  "peerDependencies": {
+    "prettier": "^3.3.3"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getcommunity/config-prettier.git"
+  },
+  "scripts": {
+    "publish-manual": "npm publish"
+  },
+  "type": "module"
+}
