@@ -1,5 +1,11 @@
 # @getcommunity/config-prettier
 
+## 0.0.3
+
+### Patch Changes
+
+- updated config
+
 ## 0.0.2
 
 ### Patch Changes
