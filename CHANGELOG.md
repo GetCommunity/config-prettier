@@ -1,5 +1,12 @@
 # @getcommunity/config-prettier
 
+## 0.0.6
+
+### Minor Changes
+
+- moved files to src directory
+- expanded packages tools
+
 ## 0.0.5
 
 ### Patch Changes

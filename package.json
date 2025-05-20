@@ -1,16 +1,25 @@
 {
   "name": "@getcommunity/config-prettier",
   "description": "",
-  "version": "0.0.5",
-  "author": "@GetCommunity <ryan@getcommunity.com> (https://github.com/GetCommunity)",
+  "version": "0.0.6",
+  "author": "@GetCommunity <joey@getcommunity.com> (https://github.com/GetCommunity)",
   "contributors": [
     "Joey Grable <joey@getcommunity.com> (https://joeygrable.com)"
   ],
+  "exports": {
+    "./prettier-config.json": "./src/prettier-config.json",
+    "./app.js": "./src/app.js",
+    "./app-tailwind.js": "./src/app-tailwind.js",
+    "./package.js": "./src/package.js"
+  },
+  "files": [
+    "src"
+  ],
   "keywords": [],
   "license": "ISC",
-  "main": "./prettier-config.json",
   "peerDependencies": {
-    "prettier": "^3.4.2"
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.11"
   },
   "private": false,
   "publishConfig": {
