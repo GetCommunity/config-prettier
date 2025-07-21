@@ -10,7 +10,7 @@ const config = {
   trailingComma: "none",
   plugins: [
     "prettier-plugin-tailwindcss",
-    "prettier-plugin-sort-imports"
+    "prettier-plugin-organize-imports"
   ]
 }
 
