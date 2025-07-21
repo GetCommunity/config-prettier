@@ -8,7 +8,10 @@ const config = {
   useTabs: false,
   printWidth: 88,
   trailingComma: "none",
-  plugins: ["prettier-plugin-tailwindcss"]
+  plugins: [
+    "prettier-plugin-tailwindcss",
+    "prettier-plugin-sort-imports"
+  ]
 }
 
 export default config

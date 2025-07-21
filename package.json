@@ -19,6 +19,7 @@
   "license": "ISC",
   "peerDependencies": {
     "prettier": "^3.4.2",
+    "prettier-plugin-sort-imports": "^1.8.8",
     "prettier-plugin-tailwindcss": "^0.6.11"
   },
   "private": false,
@@ -29,5 +30,8 @@
   "scripts": {
     "publish-manual": "npm publish"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "prettier-plugin-sort-imports": "^1.8.8"
+  }
 }

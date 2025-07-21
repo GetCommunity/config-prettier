@@ -7,7 +7,8 @@ const config = {
   tabWidth: 2,
   useTabs: false,
   printWidth: 88,
-  trailingComma: "none"
+  trailingComma: "none",
+  plugins: ["prettier-plugin-sort-imports"]
 }
 
 export default config
