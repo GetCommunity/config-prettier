@@ -17,15 +17,10 @@
   ],
   "keywords": [],
   "license": "ISC",
-  "peerDependencies": {
-    "prettier": "^3.8.3",
+  "dependencies": {
+    "prettier": "^3.9.6",
     "prettier-plugin-organize-imports": "^4.3.0",
-    "prettier-plugin-tailwindcss": "^0.8.0"
-  },
-  "devDependencies": {
-    "prettier": "^3.8.3",
-    "prettier-plugin-organize-imports": "^4.3.0",
-    "prettier-plugin-tailwindcss": "^0.8.0"
+    "prettier-plugin-tailwindcss": "^0.8.1"
   },
   "private": false,
   "publishConfig": {
